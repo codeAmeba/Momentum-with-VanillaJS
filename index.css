@@ -1,0 +1,15 @@
+body{
+    background-color:rgb(80, 152, 235);
+}
+h1{
+    color:white;
+}
+p{
+    color:palevioletred
+}
+.form, .greetings {
+    display: none;
+}
+.showing {
+    display: block;
+}
