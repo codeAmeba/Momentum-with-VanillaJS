@@ -1,15 +1,29 @@
 body{
-    background-color:rgb(80, 152, 235);
+    background-color:white;
 }
 h1{
-    color:white;
+    color: palevioletred;
+    font-size: 4.8rem;
+    font-weight: 800;
 }
-p{
-    color:palevioletred
+.form input {
+    width: 340px;
+    height: 50px;
+    font-size: 2rem;
+    text-align: center;
+    border: 3px solid seagreen;
+    border-radius: 10px;
+
 }
 .form, .greetings {
     display: none;
 }
+.greetings {
+    font-size: 4.1rem;
+    color: seagreen;
+    text-decoration: underline;
+}
 .showing {
     display: block;
 }
+
