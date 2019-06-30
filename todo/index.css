@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+}
+body{
+    background-color:rgb(77, 77, 77);
+    text-align: center;
+}
+h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: white;
+    margin: 130px auto 0px auto;
+    text-decoration: underline;
+}
+li {
+    list-style: none;
+    color: white;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+input {
+    text-align: center;
+    font-size: 1.1rem;
+    width: 200px;
+    height: 20px;
+    background: white;
+    border: none;
+
+}
+
+button {
+    background: none;
+    border: none;
+    color: white;
+}
+
+.form, .greetings {
+    font-size: 2rem;
+    display: none;
+}
+
+.showing {
+    display: block;
+    color: white;
+    margin-bottom: 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    animation: fadeIn .5s linear;
+}
