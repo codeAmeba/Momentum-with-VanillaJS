@@ -16,7 +16,7 @@ li {
     color: white;
     margin: 130px auto 0px auto;
     text-align: center;
-    text-shadow: 1px 1px 5px gray;
+    text-shadow: 1px 1px 1px darkgray;
 }
 
 .js-toDoForm {
