@@ -11,7 +11,7 @@ function getWeather(lat, lon) {
     .then(function(json) {
       const temperature = Math.floor(json.main.temp);
       const place = json.name;
-      weather.innerText = `Current Temperature: ${temperature} / Current Location: ${place}`;
+      weather.innerText = `Current Temperature: ${temperature} ℃ / Current Location: ${place}`;
     });
 }
 

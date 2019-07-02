@@ -1,3 +1,6 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 body{
     background-color:rgb(77, 77, 77);
@@ -16,7 +19,7 @@ li {
     color: white;
     margin: 130px auto 0px auto;
     text-align: center;
-    text-shadow: 1px 1px 1px darkgray;
+    /* text-shadow: 1px 1px 1px darkgray; */
 }
 
 .js-toDoForm {
@@ -33,7 +36,7 @@ li {
 input {
     text-align: center;
     width: 300px;
-    height: 20px;
+    height: 35px;
     font-size: 25px;
     color: white;
     background: none;
